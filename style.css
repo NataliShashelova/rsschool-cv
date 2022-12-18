@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #000000;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	font-size: 900;
+}
+
+.section {
+	max-width: 800px;
+	margin: 0 auto;
+	font-size: 700;
+	border-bottom: 1px solid #a6a6a6;
+}
+
+.srs {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	width: 170px;
+	height: 240px;
+	border-radius: 100px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.section-title {
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #8c918d;
+}
+
+.main-list {
+	max-width: 800px;
+	margin: 0 auto;
+	font-size: 400;
+}
+
+.header {
+	height: 50px;
+	background-color: #a6a6a6;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+	padding: 0 20px;
+	gap: 30px;
+	text-transform: uppercase;
+}
+
+.nav-link {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+.main {
+	background-color: #ffffff;
+	padding-bottom: 50px;
+}
+
+.nav-link-contakt {
+	color: #8e8a8a;
+}
+
+.footer {
+	height: 50px;
+	background-color: #d6d6d6;
+}
+
+.section__img {
+	display: flex;
+	align-items: center;
+}
+
+h1 {
+	padding-left: 100px;
+	font-size: 32px
+}
+
+.foter-container {
+	list-style: none;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.github-link {
+	text-decoration: none;
+	color: rgb(121, 108, 108);
+	padding-left: 50px;
+}
+
+.rsschol {
+	width: 100px;
+	height: 50px;
+}
